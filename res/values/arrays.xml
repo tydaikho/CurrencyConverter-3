@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="currencies">
+        <item>EUR - Euro</item>
+		<item>BOB - Bolivia</item>
+		<item>BRL - Brazil</item>
+		<item>BGN - Bulgaria</item>
+		<item>KHR - Cambodia</item>
+		<item>CAD - Canada</item>
+		<item>KYD - Cayman Islands</item>
+		<item>CLP - Chile</item>
+		<item>CNY - China</item>
+		<item>COP - Colombia</item>
+		<item>CRC - Costa Rica</item>
+		<item>XOF - Cote Ivoire</item>
+		<item>HRK - Croatia</item>
+		<item>CUP - Cuba</item>
+		<item>CZK - Czech Republic</item>
+		<item>DKK - Denmark</item>
+		<item>DOP - Dominican Republic</item>
+		<item>EGP - Egypt</item>
+		<item>FJD - Fiji</item>
+		<item>GEL - Georgia</item>
+		<item>GHS - Ghana</item>
+		<item>GTQ - Guatemala</item>
+		<item>HTG - Haiti</item>
+		<item>HKD - Hong Kong</item>
+		<item>HUF - Hungary</item>
+		<item>ISK - Iceland</item>
+		<item>INR - India</item>
+		<item>IDR - Indonesia</item>
+		<item>IRR - Iran</item>
+		<item>ILS - Israel</item>
+		<item>JMD - Jamaica</item>
+		<item>JPY - Japan</item>
+		<item>JOD - Jordan</item>
+		<item>KZT - Kazakhstan</item>
+		<item>KES - Kenya</item>
+		<item>KRW - South Korea</item>
+		<item>LBP - Lebanon</item>
+		<item>MGA - Madagascar</item>
+		<item>MYR - Malaysia</item>
+		<item>MVR - Maldives</item>
+		<item>MXN - Mexico</item>
+		<item>MAD - Morocco</item>
+		<item>NPR - Nepal</item>
+		<item>NZD - New Zealand</item>
+		<item>NOK - Norway</item>
+		<item>PKR - Pakistan</item>
+		<item>PYG - Paraguay</item>
+		<item>PEN - Peru</item>
+		<item>PLN - Poland</item>
+		<item>QAR - Qatar</item>
+		<item>RON - Romania</item>
+		<item>RUB - Russia</item>
+		<item>SAR - Saudi Arabia</item>
+		<item>XOF - Senegal</item>
+		<item>RSD - Serbia</item>
+		<item>SCR - Seychelles</item>
+		<item>ZAR - South Africa</item>
+		<item>LKR - Sri Lanka</item>
+		<item>SEK - Sweden</item>
+		<item>CHF - Switzerland</item>
+		<item>THB - Thailand</item>
+		<item>TND - Tunisia</item>
+		<item>TRY - Turkey</item>
+		<item>UAH - Ukraine</item>
+		<item>AED - United Arab Emirates</item>
+		<item>GBP - United Kingdom</item>
+		<item>USD - United States</item>
+		<item>UYU - Uruguay</item>
+		<item>VEF - Venezuela</item>
+		<item>VND - Vietnam</item>
+		<item>YER - Yemen</item>
+    </string-array>
+</resources>

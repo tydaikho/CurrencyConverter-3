@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Currency Converter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_graph">Currency Graph</string>
+    <string name="FirstFlagCurrency">Flag First Currency</string>
+    <string name="SecondFlagCurrency">Flag Second Currency</string>
+    <string name="value">Value</string>
+    <string name="desc_reverse">Reverse Currencies</string>
+	
+    <string name="calculate">Convert</string>
+</resources>
