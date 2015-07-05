@@ -24,7 +24,7 @@ public class CurrencyConvertRS extends AsyncTask<String, Void, String> {
 	private String currencyTo;
 	private Float valueToConvert;
 
-	private final String LOG_TAG = CurrencyConvertRS.class.getSimpleName();
+	private final String LOG_CURRENCY_CONVERTER_RS = CurrencyConvertRS.class.getSimpleName();
 	
 	private final String JSON_RATE = "rates";
 	private Activity activity;
@@ -121,16 +121,16 @@ public class CurrencyConvertRS extends AsyncTask<String, Void, String> {
 	@Override
 	protected void onPostExecute(String result) {
 		if (result != null) {
-			Log.d(LOG_TAG, result);
+			Log.d(LOG_CURRENCY_CONVERTER_RS, result);
 			try {
 				JSONObject convertJson = new JSONObject(result);
 				JSONObject rates = convertJson.getJSONObject(JSON_RATE);
-				Log.d(LOG_TAG, "EUR-> " + rates.getString(currencyTo));
+				Log.d(LOG_CURRENCY_CONVERTER_RS, "EUR-> " + rates.getString(currencyTo));
 				Float resultValue = Float.valueOf(rates.getString(currencyTo));
 				Float totalValue = valueToConvert * resultValue;
 				tv.setText(totalValue.toString());
 			} catch (JSONException e) {
-				Log.d(LOG_TAG, "Error in JSON Object: " + e.getMessage());
+				Log.d(LOG_CURRENCY_CONVERTER_RS, "Error in JSON Object: " + e.getMessage());
 			}
 		}
 	}
